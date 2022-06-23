@@ -54,7 +54,7 @@ void detectHand(){
 }
 
 void closeButton(){
-  Servo1.write(15);
+  Servo1.write(0);
 }
 
 void hide(){
