@@ -15,10 +15,10 @@ void loop(){
    digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
    Servo1.write(0); 
    delay(1000); 
-   digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
+   /*digitalWrite(LED_BUILTIN, LOW);    // turn the LED off by making the voltage LOW
    // Make servo go to 90 degrees 
-   Servo1.write(90); 
-   delay(1000); 
+   Servo1.write(90);
+   delay(1000); */
    digitalWrite(LED_BUILTIN, HIGH);   // turn the LED on (HIGH is the voltage level)
    // Make servo go to 180 degrees 
    Servo1.write(180); 
